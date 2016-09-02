@@ -1,24 +1,29 @@
 {
-  "name": "typescript-with-globs",
-  "version": "0.1.4",
-  "description": "Add glob patterns to tsconfig.json",
+  "name": "typescript-custom",
+  "version": "1.0.0",
+  "description": "An addon to the TypeScript compiler.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex Dima",
+  "contributors": [{
+    "name": "Kristof Torfs",
+    "email": "kristof@torfs.org"
+  }],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexandrudima/typescript-with-globs"
+    "url": "https://github.com/torfs-ict/typescript-custom"
   },
   "bugs": {
-    "url": "https://github.com/alexandrudima/typescript-with-globs/issues"
+    "url": "https://github.com/torfs-ict/typescript-custom/issues"
   },
   "license": "MIT",
   "bin": {
-    "tscg": "./bin/tscg"
+    "tscc": "./bin/tscc"
   },
   "dependencies": {
+    "typescript": "^2.0.0",
     "glob": "^7.0.3"
   }
 }
